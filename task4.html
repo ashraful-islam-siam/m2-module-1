@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+    <style>
+      /* .container {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      } */
+      .restaurant-content {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 18px;
+      }
+
+      button {
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        background-color: #4e4ee9;
+        color: #fff;
+      }
+
+      @media screen and (max-width: 576px) {
+        .restaurant-content {
+          flex-direction: column;
+          margin-bottom: 20px;
+        }
+
+        .img-container {
+          width: 100%;
+        }
+        .img-container img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="restaurant-content">
+        <div class="img-container">
+          <img src="./images/pizza.jpeg" alt="" />
+        </div>
+        <div class="text-container">
+          <h3>Best Food Ever</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
+            magni non voluptatem pariatur, eius et sint officiis cumque tempore
+            illo commodi voluptate ratione vero cum minus ducimus ab repellat
+            unde. Mollitia, nihil, laborum, consequatur repudiandae beatae
+            voluptatum dignissimos a quasi dolorum tempore sit omnis ab quam.
+            Minima excepturi qui magnam!
+          </p>
+          <button class="btn-primary">Buy Now</button>
+        </div>
+      </div>
+      <div class="restaurant-content">
+        <div class="img-container">
+          <img src="./images/pizza.jpeg" alt="" />
+        </div>
+        <div class="text-container">
+          <h3>Best Food Ever</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
+            magni non voluptatem pariatur, eius et sint officiis cumque tempore
+            illo commodi voluptate ratione vero cum minus ducimus ab repellat
+            unde. Mollitia, nihil, laborum, consequatur repudiandae beatae
+            voluptatum dignissimos a quasi dolorum tempore sit omnis ab quam.
+            Minima excepturi qui magnam!
+          </p>
+          <button class="btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
